@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Poem Request Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="homepage.html" class="home_image">
+            <img src="https://www.nps.gov/common/uploads/grid_builder/rocr/crop16_9/630F74EE-1DD8-B71B-0BAF0E6C1B48595E.jpg?width=640&quality=90&mode=crop"
+                class="top_logo">
+        </a>
+        <div>
+            <ul class="nav_menu_list">
+
+                <li class="nav_menu_item"><a href="homepage.html">Home</a></li>
+                <li class="nav_menu_item"><a href="page2.html">Get Another Poem</a></li>
+                <li class="nav_menu_item"><a href="page3.html">Learn About the Park</a></li>
+                <li class="nav_menu_item"><a href="page4.html">See the Park</a></li>
+
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1>Request Another Poem</h1>
+        <form action="mailto:rachelkellner1@gmail.com" method="post" class="request_form">
+            <fieldset>
+                <div class="fname">
+                    <label for="first_name">First name:</label><br>
+                    <input type="text" id="first_name" name="firstname">
+                </div>
+
+                <div class="lname">
+                    <label for="last_name">Last name:</label><br>
+                    <input type="text" id="last_name" name="lastname">
+                </div>
+
+                <div class="email_class">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email_ad">
+                </div>
+                <div>
+                    <label for="season">A poem about:</label><br>
+                    <select id="season" name="szn">
+                        <option value="spring">Spring</option>
+                        <option value="summer">Summer</option>
+                        <option value="fall">Fall</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="date">Today's Date:</label><br>
+                    <input type="date" id="date" name="current_date">
+                </div>
+                <div>
+                    <p>How many times have you been to Rock Creek Park?</p>
+                    <input type="radio" id="never" name="visits" value="NEVER">
+                    <label for="never">Never</label>
+                    <input type="radio" id="once" name="visits" value="ONCE">
+                    <label for="once">One or two times</label>
+                    <input type="radio" id="countless" name="visits" value="COUNTLESS">
+                    <label for="countless">Too many times to count</label>
+                </div>
+
+                <div>
+                    <label for="comments">Anything else to add?</label><br>
+                    <textarea id="comments" name="comments"></textarea>
+                </div>
+
+
+                <div>
+                    <input type="checkbox" required id="ducks" name="terms" value="agreed"
+                        oninvalid="this.setCustomValidity('Must love ducks to get a poem')">
+                    <label for="ducks">Do you love ducks?</label><br>
+
+                </div>
+
+                <div>
+                    <button type="submit" value="send">Submit</button>
+                </div>
+
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <a class="endlink" href="mailto: rachelkellner1@gmail.com">contact me</a>
+        <a class="endlink" href="https://www.alltrails.com/parks/us/washington-dc/rock-creek-park--2"
+            target="_blank">find a trail</a>
+    </footer>
+</body>
+
+</html>

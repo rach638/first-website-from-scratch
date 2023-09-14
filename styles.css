@@ -1,0 +1,165 @@
+/*Overall Document*/
+* {
+    background-color: #e4e4e5;
+    margin: 0px;
+    box-sizing: border-box;
+    color: #2A4559;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: #5E5E3B;
+    font-size: 40px;
+    text-shadow: 5% 5% darkgreen;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.block {
+    border: solid 1.5px #A4A64E;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+}
+
+.nav_menu_list {
+    background-color: #6088A7;
+    list-style-type: "";
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #5E5E3B;
+    color: #e4e4e5;
+    margin-top: auto;
+    margin-bottom: 3px;
+    padding: 3px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.endlink {
+    padding-right: 15px;
+    word-spacing: -3px;
+}
+
+main {
+    margin: 20px 80px;
+    text-align: center;
+}
+
+.nav_menu_item {
+    background-color: inherit;
+    color: #e4e4e5;
+}
+
+.top_logo {
+    border-radius: 50%;
+    width: 40px;
+    height: 30px;
+    align-self: left;
+}
+
+a {
+    background-color: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+/*homepage*/
+.homepage_image {
+    width: 300px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+
+    align-self: center;
+}
+
+.homepageimage {
+    width: auto;
+    height: 600px;
+    margin: 0px 0px 0px -150px;
+}
+
+.home_main {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.poem {
+    margin-left: 6px;
+    position: relative;
+    align-self: center;
+}
+
+.stanza {
+    text-align: left;
+    padding: 5px 0px 0px 0px;
+    word-spacing: 3px;
+}
+
+/*Page 2- form*/
+.request_form {
+    margin-bottom: 80px;
+}
+
+fieldset {
+    height: 70vh;
+    border: solid 1px #A4A64E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input {
+    border-radius: 15px;
+    border-color: #2A4559;
+    border-style: double;
+    text-align: center;
+}
+
+/*Page 3- learn more links*/
+.more_links {
+    border: solid 1px #A4A64E;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px;
+}
+
+.alink {
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: left;
+    list-style-type: upper-roman;
+}
+
+/*page 4- images*/
+
+.photos {
+    display: grid;
+    gap: 20px;
+    grid-template: auto auto / auto auto auto;
+    position: relative;
+    zoom: .4;
+}
